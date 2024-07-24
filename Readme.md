@@ -18,34 +18,16 @@ The PDF Chatbot is a conversational agent that allows users to upload a PDF file
 pdf_chatbot/
 ├── requirements.txt
 ├── Readme.md
-├── .pytest_cache/
-│   ├── .gitignore
-│   ├── CACHEDIR.TAG
-│   ├── README.md
-│   └── v/
-│       └── cache/
-│           ├── lastfailed
-│           ├── nodeids
-│           └── stepwise
 ├── app/
 │   ├── __init__.py
 │   ├── main.py
 │   ├── routes.py
 │   ├── sample.py
 │   ├── utils.py
-│   └── __pycache__/
-│       ├── __init__.cpython-311.pyc
-│       ├── main.cpython-311.pyc
-│       ├── routers.cpython-311.pyc
-│       ├── routes.cpython-311.pyc
-│       └── utils.cpython-311.pyc
 └── tests/
     ├── __init__.py
     ├── sample_assignment.pdf
     ├── test_main.py
-    └── __pycache__/
-        ├── __init__.cpython-311.pyc
-        └── test_main.cpython-311-pytest-8.3.1.pyc
 ```
 
 ## Installation
