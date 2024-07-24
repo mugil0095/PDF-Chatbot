@@ -77,7 +77,7 @@ pdf_chatbot/
 
 1. **Navigate to the root directory**:
    ```
-   cd textfolderpath
+   cd testsfolderpath
    ```
 
 2. **Run the tests**:
