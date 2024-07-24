@@ -34,11 +34,11 @@ pdf_chatbot/
 │   ├── main.py
 │   ├── routes.py
 │   ├── sample.py
-│   ├── utils.py
+│   └── utils.py
 └── tests/
     ├── __init__.py
     ├── sample_assignment.pdf
-    ├── test_main.py
+    └──test_main.py
 ```
 
 ## Installation
