@@ -2,7 +2,8 @@
 
 ## Overview
 
-The PDF Chatbot is a conversational agent that allows users to upload a PDF file and interact with its contents through a chat interface. Built using FastAPI and OpenAI's Retrieval-Augmented Generation (RAG) method, this project provides a seamless way to extract and query information from PDF documents.
+The PDF Chatbot is a conversational agent that allows users to upload a PDF file and interact with its contents through a chat interface. Built using FastAPI and OpenAI's Retrieval-Augmented Generation (RAG) method with the `deepset/roberta-base-squad2` 
+ model, this project provides a seamless way to extract and query information from PDF documents.
 
 ## Features
 
@@ -11,6 +12,16 @@ The PDF Chatbot is a conversational agent that allows users to upload a PDF file
 - **Retrieval-Augmented Generation**: Utilizes OpenAI's RAG method for generating responses based on PDF content.
 - **API Endpoints**: Provides API endpoints for uploading PDFs and querying the contents.
 - **Unit Tests**: Includes unit tests to ensure functionality and reliability.
+
+## deepset/roberta-base-squad2
+
+The `deepset/roberta-base-squad2` model is a fine-tuned version of RoBERTa for the SQuAD2.0 dataset (Stanford Question Answering Dataset). It excels in reading comprehension tasks by answering questions based on given context. The model is particularly adept at handling unanswerable questions, making it a robust choice for document querying systems.
+
+- **Model**: RoBERTa-base
+- **Dataset**: SQuAD2.0
+- **Use Case**: Reading comprehension, Question Answering
+
+In this project, `deepset/roberta-base-squad2` is used to generate accurate and contextually relevant responses based on the content of uploaded PDF documents.
 
 ## Directory Structure
 
